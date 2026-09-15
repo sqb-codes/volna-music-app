@@ -6,6 +6,11 @@
     <title>Page | Project</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
@@ -13,76 +18,84 @@
      <div id="container">
         
         <aside id="sidebar">
-            <div class="flex">
-                <div class="logo">
-                    <a href="#">
-                        <img src="assets/images/logo.svg" alt="logo">
-                    </a>
+            <div class="flex fixed-sidebar">
+                <div class="col-1">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/images/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <nav id="main-navigation">
+                        <ul>
+                            <li class="active-link">
+                                <a href="#">
+                                    <i class="fa-regular fa-house"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-user-group"></i>
+                                    <span>Artists</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-music"></i>
+                                    <span>Releases</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span>Events</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-microphone"></i>
+                                    <span>Podcasts</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Pages</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>Store</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-newspaper"></i>
+                                    <span>News</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav id="main-navigation">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fa-regular fa-house"></i>
-                                <span>Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-user-group"></i>
-                                <span>Artists</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-music"></i>
-                                <span>Releases</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-regular fa-calendar-days"></i>
-                                <span>Events</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-microphone"></i>
-                                <span>Podcasts</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-folder"></i>
-                                <span>Pages</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <span>Store</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-regular fa-newspaper"></i>
-                                <span>News</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
 
                 <div id="music-player">
-                    <div class="current-song-thumbnail">
-                        <img src="" alt="">
+                    <div class="current-song-cover">
+                        <img src="assets/images/cover.svg" alt="song cover">
                     </div> 
                     <div class="current-song-name">
-                        <p>Epic Cinematic – AudioPizza</p>
+                        <p>Epic Cinematic - AudioPizza</p>
                     </div>
                     <div class="song-controls">
-                        <i class="fa-solid fa-backward-step"></i>
-                        <i class="fa-solid fa-play"></i>
-                        <i class="fa-solid fa-forward-step"></i>
+                        <button>
+                            <i class="fa-solid fa-backward-step"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-forward-step"></i>
+                        </button>
                     </div>
                     <div class="audio-player">
                         <audio controls>
