@@ -1,0 +1,70 @@
+/* Global Settings */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Helper Classes */
+.flex {
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-center {
+    justify-content: center;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/* Header */
+#header {
+
+}
+
+/* Navigation */
+#main-navigation {
+
+}
+
+/* Banner */
+#banner {
+
+}
+
+/* Main */
+#main {
+
+}
+
+/* Footer */
+#footer {
+    
+}
